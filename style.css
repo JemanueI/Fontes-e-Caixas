@@ -5,6 +5,15 @@
     background-color: black; 
     color: white;}
 
+p#sem_pseudo_classe{
+    font-size: 20px;
+    color: white;
+}
+    p#sem_pseudo_classe span.primeira_letra_maiuscula{
+        font-size: 42px;
+        color: red;
+    }
+
 #segunda_box{
     font-family: montserrat;
     font-size: 20px; 
@@ -19,6 +28,19 @@
     padding: 50px;
     border: 10px solid black;
 }
+
+
+p#com_pseudo_classe{
+    font-family: montserrat;
+    font-size: 20px;
+    color: white;
+}
+
+    p#com_pseudo_classe::first-letter{
+        font-size: 42px;
+        color: yellow;
+    }
+
 
 #terceira_box{
     font-family: robotomono;
